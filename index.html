@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <title>Hoteis</title>
+  </head>
+
+  <body>
+    <header class="main-container">
+      <div class="solid-and-soft-container"></div>
+      <div class="top-container">
+        <div class="main-title">
+          <img src="assets/img/logo.png" alt="logo" />
+          <h1><span>Hoteis no</span>Rio de Janeiro</h1>
+        </div>
+        <div class="reservation-phone">
+          <span>Central de reservas: </span>
+          <span>01 800 012 5412</span>
+        </div>
+      </div>
+      <div class="bottom-container">
+        <input type="checkbox" name="hambuerguerMenu" id="hambuerguerMenu" />
+        <label for="hambuerguerMenu" id="menu">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="">Hotels</a></li>
+            <li><a href="">Pacotes</a></li>
+            <li><a href="">Passeios</a></li>
+            <li><a href="">Traslados</a></li>
+            <li><a href="">Ofertas</a></li>
+            <li><a href="">A Cidade</a></li>
+          </ul>
+        </nav>
+        <div class="online-booking">
+          <h2>Reserva en linea</h2>
+          <nav class="booking">
+            <ul>
+              <li><a href="">Hotel</a></li>
+              <li><a href="">Hotel + Passagem</a></li>
+              <li><a href="">Passagens</a></li>
+              <li><a href="">Passeios</a></li>
+              <li><a href="">Traslados</a></li>
+            </ul>
+          </nav>
+          <form action="" method="POST">
+            <div class="column-direction">
+              <label for="destinationHotel">Destino / Hotel</label>
+              <input
+                type="text"
+                id="destinationHotel"
+                name="destinationHotel"
+                required
+              />
+            </div>
+            <div class="bottom-form-container">
+              <div class="date-options column-direction">
+                <div class="column-direction">
+                  <label for="arrival">Chegada:</label>
+                  <input type="date" id="arrival" name="arrivalDate" required />
+                </div>
+                <div class="column-direction">
+                  <label for="exitDate">Saída</label>
+                  <input type="date" id="exitDate" name="exitDate" required />
+                </div>
+              </div>
+              <div class="data-options">
+                <div class="options-container">
+                  <div class="render-options-container">
+                    <div class="column-direction">
+                      <label for="numberRoom">Quartos</label>
+                      <div class="select-container">
+                        <select id="numberRoom" name="rooms">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="column-direction">
+                      <label for="numberAdults">Adultos</label>
+                      <div class="select-container">
+                        <select id="numberAdults1" name="numberAdults1">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="column-direction">
+                      <label for="numberChilds">Criancas</label>
+                      <div class="select-container">
+                        <select id="numberChilds1" name="numberChilds1">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input type="submit" value="Reservar Agora" />
+              </div>
+            </div>
+          </form>
+        </div>
+      </divclas>
+      <div class="right-anouncement">
+        <div class="main-announcement">
+          <span class="ghost">Hoteis no </span >
+          <span class="ghost">Rio de Janeiro</span>
+          <span>A partir de: </span>
+          <p>
+            <span>R$</span>
+            <span>859</span>
+          </p>
+          <button>RESERVAR AGORA</button>
+        </div>
+      </div>
+      <div class="carousel">
+        <ul>
+          <li><img src="assets/img/1.png" alt="" /></li>
+          <li><img src="assets/img/1.png" alt="" /></li>
+          <li><img src="assets/img/1.png" alt="" /></li>
+        </ul>
+      </div>
+    </header>
+    <section class="main-container offers">
+      <article class="promotion">
+        <h2>Descubra o Rio de Janeiro</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae qui
+          tempore totam voluptate explicabo optio reprehenderit numquam
+          adipisci, quos quibusdam maiores, neque cupiditate velit fugiat porro!
+          Animi <strong>iste cupiditate sint</strong>.
+        </p>
+        <div class="main-article">
+          <div class="text-promo">
+            <p>Monte seu Pacote</p>
+            <div>
+              <p class="msi">12x</p>
+              <div>
+                <p>em ate</p>
+                <p>sem juros</p>
+              </div>
+            </div>
+          </div>
+          <img src="assets/img/2.jpg" alt="" />
+        </div>
+      </article>
+      <div class="vertical-bar"></div>
+      <article class="attractions-container">
+        <h3>Pincipais Atracoes</h3>
+        <div class="sub-container">
+          <div class="attraction">
+            <img src="assets/img/2.jpg" alt="" />
+            <div>
+              <p class="hotelName">Copacabana</p>
+              <p>A partir de</p>
+              <p class="price">R$ <span>171</span></p>
+              <button>Reservar</button>
+            </div>
+          </div>
+          <div class="attraction">
+            <img src="assets/img/2.jpg" alt="" />
+            <div>
+              <p class="hotelName">Copacabana</p>
+              <p>A partir de</p>
+              <p class="price">R$ <span>171</span></p>
+              <button>Reservar</button>
+            </div>
+          </div>
+          <div class="attraction">
+            <img src="assets/img/2.jpg" alt="" />
+            <div>
+              <p class="hotelName">Copacabana</p>
+              <p>A partir de</p>
+              <p class="price">R$ <span>171</span></p>
+              <button>Reservar</button>
+            </div>
+          </div>
+          <div class="attraction">
+            <img src="assets/img/2.jpg" alt="" />
+            <div>
+              <p class="hotelName">Copacabana</p>
+              <p>A partir de</p>
+              <p class="price">R$ <span>171</span></p>
+              <button>Reservar</button>
+            </div>
+          </div>
+          <div class="attraction">
+            <img src="assets/img/2.jpg" alt="" />
+            <div>
+              <p class="hotelName">Copacabana</p>
+              <p>A partir de</p>
+              <p class="price">R$ <span>171</span></p>
+              <button>Reservar</button>
+            </div>
+          </div>
+          <div class="attraction">
+            <img src="assets/img/2.jpg" alt="" />
+            <div>
+              <p class="hotelName">Copacabana</p>
+              <p>A partir de</p>
+              <p class="price">R$ <span>171</span></p>
+              <button>Reservar</button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <article class="other-options main-container">
+      <div>
+        <img src="assets/img/star.png" alt="" />
+        <a href="">Atracoes e lazer</a>
+      </div>
+      <div>
+        <img src="assets/img/tag.png" alt="" />
+        <a href="">Diversao e compras</a>
+      </div>
+      <div>
+        <img src="assets/img/direction.png" alt="" />
+        <a href="">Dicas ao turista</a>
+      </div>
+      <div>
+        <img src="assets/img/palms.png" alt="" />
+        <a href="">Nossas Praias</a>
+      </div>
+      <div>
+        <img src="assets/img/portfolio.png" alt="" />
+        <a href="">Servicios locais</a>
+      </div>
+    </article>
+    <footer>
+      <ul>
+        <li><a href="">Quiem somos</a></li>
+        <li><a href="">Pólitica de confincialidade</a></li>
+        <li><a href="">Condicoes</a></li>
+        <li><a href="">Ajuda</a></li>
+      </ul>
+      <p>
+        2012 riodejanerio.com.br - Todos os dereitos reservados. O uso deste
+        website implica na aceitacao de nossa politica de privacidade
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
